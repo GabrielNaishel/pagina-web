@@ -56,3 +56,25 @@ input{
     display: flex;
 }
 
+body{
+    background-image: linear-gradient(45deg, #670000, #000);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contenedor .menudesplegable{
+
+    width: 300px;
+    height: 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 25px;
+    background-color: #670000;
+    
+}
