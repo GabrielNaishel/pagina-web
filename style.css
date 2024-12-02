@@ -25,8 +25,9 @@
 .container{ 
     position:relative;
     margin-left: 200px;
-    margin-right: 0px;
+    margin-right: 80px;
 }
+
 
 
 input{
@@ -70,4 +71,8 @@ h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-
+.carousel{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
