@@ -80,3 +80,19 @@ h1{
     color: white;
     
 }
+.redes{
+    height: 30px;
+    width: 30px;
+    background-size: 51px 51px;
+    display: flex;
+    gap: 10px;
+
+
+
+    
+
+     }
+    .icono-imagen{
+        width: 40px;
+        height: 40px;
+    }
