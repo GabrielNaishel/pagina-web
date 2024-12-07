@@ -1,4 +1,4 @@
-.encabezado{
+.encabezado {
     background-color: black;
     margin: 0;
     padding: 0;
@@ -7,14 +7,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
-.imagen{
+.logo {
     width: 150px;
     height: 150px;
-    
+
 }
-*{
+
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -22,15 +25,8 @@
 }
 
 
-.container{ 
-    position:relative;
-    margin-left: 200px;
-    margin-right: 80px;
-}
 
-
-
-input{
+input {
     width: 350px;
     padding: 10px;
     padding-right: 35px;
@@ -43,56 +39,58 @@ input{
 
 }
 
-.entrarn{
+.entrarn {
     width: 110px;
     height: 110px;
 }
 
-.carrito{
+.carrito {
     width: 50px;
     height: 50px;
+    display: flex;
 }
 
-.bloque2{
+.bloque2 {
     text-align: center;
     justify-content: end;
     align-items: center;
     display: flex;
 }
 
-body{
+body {
     background-image: linear-gradient(45deg, #670000, #000);
 
 }
 
-h1{
+body h1{
+    color: white;
+    text-align: center;
+}
+
+body .card {
+    justify-content: space-around;
+    display: inline-block;
+    margin-left: 180px;
+    background-color: transparent;
+    color: white;
+
+}
+body h6 {
+    color: white;
+
+}
+
+.icono-imagen {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+body .redes{
     display: flex;
     justify-content: center;
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.card{
-    justify-content:space-between;
-    display: inline-block;
-    margin-left: 120px;
-    background-color:transparent;
-    color: white;
-    
-}
-.redes{
-    height: 30px;
-    width: 30px;
-    background-size: 51px 51px;
-    display: flex;
+    align-items: center;
     gap: 10px;
+    margin-top: 20px;
 
-
-
-    
-
-     }
-    .icono-imagen{
-        width: 40px;
-        height: 40px;
-    }
+}

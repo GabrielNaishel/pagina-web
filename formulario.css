@@ -1,0 +1,65 @@
+.encabezado {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.entrarn {
+    width: 110px;
+    height: 110px;
+}
+
+.carrito {
+    width: 50px;
+    height: 50px;
+    display: flex;
+}
+
+.bloque2 {
+    text-align: center;
+    justify-content: end;
+    align-items: center;
+    display: flex;
+}
+
+body h1 {
+    color: white;
+    font-size: medium;
+    text-align: center;
+}
+
+
+body {
+    background-image: linear-gradient(45deg, #670000, #000);
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+color: white;
+}
+
+.secundario{
+    display: flex;
+    justify-content: center;
+}
