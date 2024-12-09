@@ -58,40 +58,13 @@ input {
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    background-image:url(./imagenes/fondo.jpg);
+    background-image: url(./imagenes/fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
-}
-
-body h1{
-    color: white;
-    text-align: center;
 }
 
 p{
-    font-size: xx-large;
-}
 
-body h6 {
     color: white;
-
-}
-
-.icono-imagen {
-    width: 40px;
-    height: 40px;
-    text-align: center;
-}
-
-body .redes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin-top: 20px;
-
 }
