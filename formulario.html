@@ -26,7 +26,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="pagina principal.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="pagina principal.html">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="formulario.html">Contacto</a>
@@ -40,7 +40,7 @@
                                 Productos
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Notebooks</a></li>
+                                <li><a class="dropdown-item" href="Notebooks.html">Notebooks</a></li>
                                 <li><a class="dropdown-item" href="#">Celulares</a></li>
                                 <li><a class="dropdown-item" href="#">Heladeras</a></li>
                                 <li><a class="dropdown-item" href="#">Consolas</a></li>
@@ -54,66 +54,66 @@
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Buscar..</button>
+                        <script src="bara de busqueda.js"></script>
                     </form>
                 </div>
             </div>
         </nav>
         <div class="bloque2">
             <!--Hipervinculo con imagen como icono-->
-            <a href="login.html">
-                <div class="entrar"> <img src="../boceto/imagenes/ingresarr.jpg" alt="" class="entrarn"></div>
-
+            <a href="registro.html">
+                <div class="entrar"> <img src="imagenes/ingresarr.jpg" alt="" class="entrarn"></div>
             </a>
+            
 
-            <div class="mercado"> <img src="../boceto/imagenes/compra.jpg" alt="" class="carrito"></div>
+            <div class="mercado"> <img src="imagenes/compra.jpg" alt="" class="carrito"></div>
         </div>
 
     </div>
-    <h1>¡Queremos conocer tu opinión!, si tienes algún inconveniente o quieres contactar con nosotros por 
+    <h1>¡Queremos conocer tu opinión!, si tienes algún inconveniente o quieres contactar con nosotros por
         consultas,
         completa el siguiente formulario, nuestros asesores se comunicarán con uds a la brevedad.
     </h1><br><br><br>
-<form action="https://formspree.io/f/manyzozb" method="post">
-    
-    <div class="principal">
-        <label for=""> Nombre</label> <br>
-        <input type="text" name="Nombre" required placeholder="Introduzca su nombre">
-    </div>
-    <br><br><br><br>
-    <div class="principal">
-        <label for="">Apellido</label>
-        <input type="text" required placeholder="Introduzca su apellido">
-    </div>
-    <br><br><br><br>
-    <div class="principal">
-        <label for=""> Email</label>
-        <input type="email" required placeholder="Introduzca su email">
-    </div>
-    <br><br><br><br>
-    <div class="principal">
-        <label for="">Numero de Telefono</label>
-        <input type="number" id="Telefono" name="Telefono" placeholder="ejemplo +549 3586766354" size="30px">
-    </div>
-    <br><br>
-    <div class="principal">
-    <label for="comentarios">Escribe tu comentario</label><br>
-    <textarea id="comentarios" name="comentarios" rows="5" cols="40"
-        placeholder="Escriba aqui su comentario o duda"></textarea>
-    </div>
-    <br><br>
-    <div class="secundario">
-        <input type="submit">
-    </div>
-</form>
+    <form action="https://formspree.io/f/manyzozb" method="post">
+
+        <div class="principal">
+            <form action="#" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+
+                <label for="telefono">Número de Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="comentarios">Comentarios:</label>
+                <textarea id="comentarios" name="comentarios" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <br><br><br><br><br><br>
+            <!--Imagenes con Hyperviculos-->
+            <div class="redes">
+                <h6>Seguinos tambien en:</h6>
+                <img src="./imagenes/facebook.png" alt="icono" class="icono-imagen">
+                <img src="./imagenes/instagam.png" alt="" class="icono-imagen">
+                <img src="./imagenes/youtube.png" alt="icono" class="icono-imagen">
+                <img src="./imagenes/whatsapp.png" alt="icono" class="icono-imagen">
+            </div>
 
 
 
 
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-        </script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                crossorigin="anonymous">
+                </script>
 </body>
 
 </html>
